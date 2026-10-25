@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maksimkolpoil-gif.github.io/koding-site/sitemap.xml

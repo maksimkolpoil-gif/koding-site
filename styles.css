@@ -965,6 +965,91 @@ body.is-pointer .cursor-glow { opacity: 1; }
   }
 }
 
+/* SEO / services detail */
+.band--seo {
+  border-top: 1px solid var(--line);
+}
+
+.seo-grid {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.seo-block {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.seo-block h3 {
+  margin: 0 0 0.55rem;
+  font-size: 1.15rem;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.seo-block p {
+  margin: 0;
+  max-width: 62ch;
+  color: #c8c8c8;
+  line-height: 1.6;
+}
+
+.seo-block strong {
+  color: var(--ink);
+}
+
+.seo-faq h3 {
+  margin: 0 0 1rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+
+.seo-faq details {
+  border-bottom: 1px solid var(--line);
+  padding: 0.85rem 0;
+}
+
+.seo-faq summary {
+  cursor: pointer;
+  font-weight: 650;
+  list-style: none;
+}
+
+.seo-faq summary::-webkit-details-marker { display: none; }
+
+.seo-faq p {
+  margin: 0.55rem 0 0;
+  color: var(--muted);
+  max-width: 58ch;
+}
+
+.seo-faq a {
+  color: var(--lime);
+  border-bottom: 1px solid rgba(214, 255, 75, 0.35);
+}
+
+.seo-cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0 0;
+  color: #cfcfcf;
+}
+
+@media (min-width: 760px) {
+  .seo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem 2rem;
+  }
+  .seo-block {
+    border-bottom: 0;
+    padding: 0;
+  }
+}
+
 @media (min-width: 1024px) {
   .logic-grid {
     grid-template-columns: repeat(5, 1fr);
